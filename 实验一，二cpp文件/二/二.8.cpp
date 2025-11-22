@@ -3,10 +3,10 @@
 using namespace std;
 int main() {
 	float a,b,c,A;
-	cout << "ÇëÊäÈëÖµ£º";
+	cout << "è¯·è¾“å…¥å€¼ï¼š";
 	cin >> a;
 	c = fabs(a), A = fabs(a),b = (c + 1) / 2 ;
-		while (fabs(b - c) >= 10-5)
+		while (fabs(b - c) >= 1e-5)
 		{
 			c = b;
 			b = (b + A / b) / 2;
@@ -15,7 +15,8 @@ int main() {
 			cout << b;
 		}
 		else {
-			cout << b << "i(Ô­ÊıÎª¸ºÊı£¬Òò´Ë²»´æÔÚÆ½·½¸ù£¬´Ë½á¹ûÎªĞéÊı)";
+			cout << b << "i(åŸæ•°ä¸ºè´Ÿæ•°ï¼Œå› æ­¤ä¸å­˜åœ¨å¹³æ–¹æ ¹ï¼Œæ­¤ç»“æœä¸ºè™šæ•°)";
 		}
 	return 0;
+
 }
