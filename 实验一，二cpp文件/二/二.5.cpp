@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	int b,zimu=0,shuzi=0,kongge=0,zifu=0;
 string a;
-cout << "ÇëÊäÈëÈÎÒâ³¤¶È;]×Ö·û£º";
+cout << "è¯·è¾“å…¥ä»»æ„é•¿åº¦å­—ç¬¦ï¼š";
 getline(cin, a);
 for (b = 0; b < a.length(); b++) {
 	switch ((a[b] == 32) ? 1 :
@@ -15,9 +15,10 @@ for (b = 0; b < a.length(); b++) {
 	case 3:zimu++; break;
 	default:zifu++; break;
 	}
-}cout << "ÆäËû×Ö·ûÊý" << zifu << endl;
-cout << "×ÖÄ¸Êý" << zimu << endl;
-cout << "Êý×ÖÊý" << shuzi << endl;
-cout << "¿Õ¸ñÊý" << kongge << endl; 
+}cout << "å…¶ä»–å­—ç¬¦æ•°" << zifu << endl;
+cout << "å­—æ¯æ•°" << zimu << endl;
+cout << "æ•°å­—æ•°" << shuzi << endl;
+cout << "ç©ºæ ¼æ•°" << kongge << endl; 
 return 0;
+
 }
