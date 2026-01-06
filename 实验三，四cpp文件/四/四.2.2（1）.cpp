@@ -27,4 +27,5 @@ int main() {
 	cin.getline(b, 100);
 	int x = indexof(a, b);
 	cout << "Return:" << x;
+	return x;
 }
