@@ -13,10 +13,10 @@ int ans(int &a,int &b) {
 }
 int main() {
 	int m, n;
-	cout << "ÊäÈë×ÔÈ»Êım£º";
+	cout << "è¾“å…¥è‡ªç„¶æ•°mï¼š";
 	cin >> m;
-	cout << "ÊäÈë×ÔÈ»Êın£º";
+	cout << "è¾“å…¥è‡ªç„¶æ•°nï¼š";
 	cin >> n;
-	int LCM = ans(m, n);
-	cout << "×îĞ¡¹«±¶ÊıÎª" << LCM << endl;
+	int GCD = ans(m, n);
+	cout << "æœ€å¤§å…¬çº¦æ•°ä¸º" << GCD << endl;
 }
