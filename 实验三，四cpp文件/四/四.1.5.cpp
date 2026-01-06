@@ -13,7 +13,7 @@ int indexof(const char s1[], const char s2[]) {
 			}
 		}
 		if (ck) {
-			return i+1;
+			return i;
 		}
 	}
 	return -1;
@@ -26,4 +26,5 @@ int main() {
 	cin.getline(b, 100);
 	int x = indexof(a, b);
 	cout << "indexof( \"" << a << "\" , \"" << b << "\" ) is " << x;
+
 }
