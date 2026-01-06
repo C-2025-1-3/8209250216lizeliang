@@ -22,9 +22,10 @@ int main() {
 	}
 	line(e, size);
 	int* p = e;
-	cout << "���飺";
+	cout << "Êý×é£º";
 	for (int i = 0; i < size; i++) {
 		cout << *(p + i) << " ";
 	}
+	delete[]e;
 	return 0;
 }
